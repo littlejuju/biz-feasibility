@@ -2,6 +2,12 @@
 
 A cold, kill-criteria business-feasibility evaluator, packaged as a [Claude Code](https://claude.com/claude-code) skill.
 
+> **Quick start** — clone into your Claude Code skills dir, then just describe an idea:
+> ```bash
+> git clone https://github.com/littlejuju/biz-feasibility.git ~/.claude/skills/biz-feasibility
+> ```
+> In Claude Code, type `/biz-feasibility` or simply pitch your venture — it auto-triggers. Example: *"I want to build a community dog-walking app in Singapore as a side project — can it work?"* It will ask for any missing load-bearing info, then return a verdict (PROMISING / 副业·CAPPED / KILL / CONDITIONAL).
+
 **The point is not to cheerlead an idea — it's to falsify it.** It defaults to skepticism and dares to return KILL. It's tuned for the messy reality of small markets (e.g. Singapore, thin supply) and for the founder-side questions that actually decide a venture's fate: *is the supply already operating without me? does reaching scale unlock a privately-capturable engine, or is this forever a public good? is it a platform or just an agency? where does the revenue actually hang — and will both sides route around me?*
 
 It runs a fast structural screen (a 9-filter platform module + three "mother" death-causes + the frequency-density-WTP deadlock + per-type unit-economics), enforces a strict **data-provenance discipline** (every load-bearing number gets a confidence color; load-bearing-but-unverified triggers an alarm), and — on request — a deeper two-round adversarial multi-agent evaluation.
