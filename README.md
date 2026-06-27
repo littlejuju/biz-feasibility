@@ -12,6 +12,14 @@ A cold, kill-criteria business-feasibility evaluator, packaged as a [Claude Code
 
 It runs a fast structural screen (a 9-filter platform module + three "mother" death-causes + the frequency-density-WTP deadlock + per-type unit-economics), enforces a strict **data-provenance discipline** (every load-bearing number gets a confidence color; load-bearing-but-unverified triggers an alarm), and — on request — a deeper two-round adversarial multi-agent evaluation.
 
+Recent additions:
+
+- **Epistemic-status self-declaration** — it announces up front that it's a decision-hygiene / red-team protocol, *not* a back-tested predictor; its single most dangerous failure mode is the **false-kill**, which the closing red-team must probe explicitly.
+- **Verdict vector** — every KILL / 副业·CAPPED pins the verdict to the sub-object it actually applies to (current form vs. founder-full-time vs. venture-scale vs. cheapest wedge), so "KILL" is never misread as "every form of this dies."
+- **Input-isolation gate** — a silent pre-judgment pass: no cross-case entity bleed, no un-redacting a de-identified brief, no importing a direction the brief never gave.
+- **Trigger-specific gates** — channel-fit, strategic-migration, legal-wording precision, and category-not-dead gates that fire only when the brief trips them.
+- **Escape-testing** — every KILL/CAPPED's cheapest test must include an *escape-test* that probes the one survival path the idea claims, not just a *death-test* that reproduces the death-cause; passing an escape-test lifts the verdict at most to its passed-state ceiling, never auto-PROMISING.
+
 ## What's here
 
 | File | What it is |
